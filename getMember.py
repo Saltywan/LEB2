@@ -6,7 +6,7 @@ import re
 import json
 
 # Get the URL of the class from user input
-url = input('Enter the URL of the member page (example: https://app.leb2.org/class/501585/member): \n')
+url = input('Enter the URL of the member page (example: https://app.leb2.org/class/xxxxxx/member): \n')
 
 # Remove any spaces from the URL
 url = url.replace(" ", "")
@@ -35,7 +35,7 @@ def getCookies():
     return cookies
 
 def getMember(url, numPage=1, lastPage=0, cookies=getCookies()):
-    # url = "https://app.leb2.org/class/389968/member?q=&page="
+    # url = "https://app.leb2.org/class/xxxxxx/member?q=&page="
     query = "?q=&page="
     get_url = url + query + str(numPage)
     print(get_url)
