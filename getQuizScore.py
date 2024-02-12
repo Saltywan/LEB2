@@ -23,7 +23,7 @@ if not(os.path.isfile('session.txt')):
 
 #check if session file exists
 if os.path.isfile('session.txt'):
-    with open('session.txt', 'r') as f:
+    with open('session1.txt', 'r') as f:
         cookies = f.read()
 else:
     with open('session.txt', 'w') as f:
