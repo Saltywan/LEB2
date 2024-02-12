@@ -4,9 +4,10 @@ This repository contain Python scripts that fetches things from LEB2.
 
 ## Files
 
-- `getQuizScore.py`: A script that fetches and displays the quiz score.
+- `getQuizScore.py`: A script that fetches your quiz score and export it to HTML.
+- `getQuizAns.py`: A script that fetches the quiz answer and export it to HTML.
 - `getMember.py`: A script that fetches the member list of a class.
-- `LICENSE`: The license for this project.
+<!-- - `LICENSE`: The license for this project. -->
 
 ## Requirements
 
