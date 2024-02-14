@@ -23,6 +23,12 @@ To run the script, use the following command:
 python `script_name.py`
 ```
 
+Get activity score
+- `https://app.leb2.org/class/xxxxxx/activity/xxxxxxx/activityFilterList`
+
+Get student submission
+- `https://app.leb2.org/class/xxxxxx/activity/xxxxxxx/score/downloadAllFile`
+
 ## License
 
 This project is licensed under the terms of the GNU General Public License. See the [LICENSE](LICENSE) file for details.
